@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SampleMVC" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\ASP\.NET\ App\\SampleApplication\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="SampleApplication.Data.SampleApplicationContext" description="" value="Server=(localdb)\mssqllocaldb;Database=SampleApplication.Data;Trusted_Connection=True;MultipleActiveResultSets=true" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\ASP\.NET\ App\\SampleApplication\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\SampleApplication\.Data\.SampleApplicationContext\.sql$" />
+  </parameter>
+</parameters>
